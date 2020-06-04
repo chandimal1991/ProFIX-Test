@@ -35,7 +35,7 @@
 			<attribute name="owner.project.facets" value="java"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="lib/mina-core-1.1.7.jar"/>
-	<classpathentry kind="lib" path="lib/simple-quickfix-1.0.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/mina-core-1.1.7.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/simple-quickfix-1.0.3.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

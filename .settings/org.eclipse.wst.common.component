@@ -6,6 +6,12 @@
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/test/java"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/lib"/>
+        <dependent-module archiveName="mina-core-1.1.7.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/messenger/lib/mina-core-1.1.7.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="simple-quickfix-1.0.3.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/messenger/lib/simple-quickfix-1.0.3.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
         <property name="context-root" value="messenger"/>
         <property name="java-output-path" value="/messenger/target/classes"/>
     </wb-module>
